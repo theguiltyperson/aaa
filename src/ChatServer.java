@@ -76,6 +76,7 @@ public class ChatServer extends JFrame {
                 m_input.close();
                 s.close();
                 mb_displayAppend("连接["+m_clientNumber+"]结束");
+                //
             }
         }
         catch (Exception e){
